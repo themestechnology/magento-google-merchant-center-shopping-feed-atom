@@ -14,12 +14,19 @@ If necessary change date_default_timezone_set("Europe/London") to your time zone
 This script will only process products with the following atributes,
 
 Available = in stock
+
 name
+
 sku
+
 UPC and or GTIN
+
 brand
+
 Googlep Product Type (googleproducttype)
+
 Short Description 
+
 
 ### Products Feed Specification
 It is expected that you have met all requirments for Products Feed Specification
