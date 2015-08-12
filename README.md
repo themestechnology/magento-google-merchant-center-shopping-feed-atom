@@ -29,10 +29,9 @@ Short Description
 
 
 ### Products Feed Specification
-It is expected that you have met all requirments for Products Feed Specification
-You may need to add additional attibutes if you are selling items such as clothing
+It is expected that you have met all requirements for Products Feed Specification You may need to add additional attributes if you are selling items such as clothing
 >https://support.google.com/merchants/answer/188494?hl=en-GB 
 
-### Googlep Product Type
+### Google Product Type
 It is recommended that you use the number references rather than the breadcrumb path for data entry as the & and > can cause problems.
 >https://support.google.com/merchants/answer/160081?hl=en-GB
