@@ -11,7 +11,7 @@ If necessary change date_default_timezone_set("Europe/London") to your time zone
 
 ## Feed Product Requirments
 
-This script will only process products with the following atributes,
+This script will only process products with the following attributes:
 
 Available = in stock
 
