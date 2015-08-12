@@ -67,13 +67,13 @@ $rss = new SimpleXMLElement('<feed version="1" xmlns="http://www.w3.org/2005/Ato
 
 //$channel = $rss->addChild('xmlns:g:channel'); //add channel node
 //$atom = $rss->addChild('xmlns:g:atom:atom:link'); //add atom node
-//$atom->addAttribute('href', 'http://www.startworkwear.com/google_atom.php'); //add atom node attribute
+//$atom->addAttribute('href', 'http://www.mysite.com/google_atom.php'); //add atom node attribute
 //$atom->addAttribute('rel', 'self');
 //$atom->addAttribute('type', 'application/rss+xml');
 $title = $rss->addChild('title',$mysitetitle); //title of the feed
 //$description = $rss->addChild('xmlns:g:description','description line goes here'); //feed description
-//$link = $rss->addChild('xmlns:g:link','http://www.startworkwear.com'); //feed site
-//$language = $rss->addChild('xmlns:g:language','en-gb'); //language
+//$link = $rss->addChild('xmlns:g:link','http://www.mysite.com'); //feed site
+//$language = $rss->addChild('xmlns:g:language','en-US'); //language
 
 $updated = $rss->addChild('updated',date("D, d M Y H:i:s T", time())); //language
 
@@ -83,41 +83,9 @@ $build_date = gmdate(DATE_RFC2822, strtotime($date_f));
 $lastBuildDate = $rss->addChild('lastBuildDate',$date_f); //feed last build date
 
 
-/*
-    $servername = "localhost";
-    $username = "startwor_google";
-    $password = "wibble";
-    $dbname = "startwor_2";
 
-    // Create connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    // Check connection
-    if ($conn->connect_error) {'. $mysqli->connect_errno .') '. $mysqli->connect_error);
-}
-
-/*
-    $servername =
-echo "<br/>------------------------------------------------------<br/>";
-
-*/
 require_once dirname(__FILE__) . '/app/Mage.php';
 Mage::app()->getCacheInstance()->flush();
-/*
-$thisstores = array();
-$allStores = Mage::app()->getStores();
-foreach ($allStores as $_eachStoreId => $val)
-{
-(string)$_storeCode = Mage::app()->get
-        die("Connection failed: " . $conn->Store($_eachStoreId)->getCode();
-(string)$_storeName = Mage::app()->getStore($_eachStoreId)->getName();
-(string)$_storeId = Mage::app()->getStore($_eachStoreId)->getId();
-
-
-echo $_storeName . " -" . $_storeCode . "<br/>";
-$thisstores[]= (string)$_storeCode;
-
-}
-*/
 
 Mage::app('admin')->setUseSessionInUrl(false);
 Mage::app('default');
