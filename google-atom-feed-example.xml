@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0" version="1">
+
+<title>mysite.co.cuk</title>
+<updated>Wed, 12 Aug 2015 09:32:35 BST</updated>
+<lastBuildDate>Wed, 12 Aug 2015 09:32:35 BST</lastBuildDate>
+
+<entry>
+    <g:item_group_id>077924003134</g:item_group_id>
+    <g:title>Weber Smokey Joe Original Black BBQ</g:title>
+    <g:link>https://mysite.co.uk/catalog/product/view/id/195/s/weber-smokey-joe-premium-bbq/</g:link>
+    <g:brand>Weber</g:brand><g:mpn>1121004</g:mpn>
+    <g:condition>new</g:condition>
+    <g:image_link>https://mysite.co.uk/media/catalog/product/s/m/smokey_joe.jpg</g:image_link>
+    <g:quantity>1</g:quantity>
+    <g:id>195mysite</g:id>
+    <g:google_product_category>2962</g:google_product_category>
+    <g:product_type>2962</g:product_type>
+    <g:price>59.99 GBP</g:price>
+    <g:sale_price>49.99 GBP</g:sale_price>
+    <g:shipping><g:country>GB</g:country>
+    <g:service>Standard</g:service>
+    <g:price>5.95 GBP</g:price></g:shipping>
+    <g:availability>in stock</g:availability>
+    <g:summary>The Weber Smokey Joe Original BBQ is the original, iconic kettle barbecue in miniature! It is ideal for picnics, camping and holidays when you need a BBQ you can simply grab and go. Click to see our full range of Weber BBQs </g:summary>
+</entry>
+
