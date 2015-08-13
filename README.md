@@ -15,13 +15,15 @@ If necessary change date_default_timezone_set("Europe/London") to your time zone
 
 This script will only process products with the following attributes:
 
+Enabled = true
+
 Available = in stock
 
 name
 
 sku
 
-UPC and or GTIN
+UPC (upc) and or GTIN (gtin)
 
 brand
 
@@ -37,3 +39,21 @@ It is expected that you have met all requirements for Products Feed Specificatio
 ### Google Product Type
 It is recommended that you use the number references rather than the breadcrumb path for data entry as the & and > can cause problems.
 >https://support.google.com/merchants/answer/160081?hl=en-GB
+
+
+## FAQ
+
+>Q: Is this script free
+
+>A: Yes it has an MIT licence
+
+
+>Q: I need a atom xml feed for more than one country
+
+>A: You would be better off renaming the script and customising it for each country
+
+
+>Q: Is there an example output
+
+>A: Yes there is an example output supplied in "google-atom-feed-example.xml"
+
