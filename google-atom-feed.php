@@ -6,6 +6,11 @@ header('Content-Type: text/xml; charset=utf-8', true); //set document header con
 
 $mysitetitle='';
 
+$shippingcountry = 'GB'
+$shippingservice = 'Standard';
+$shippingprice = '5.95 GBP';
+
+
 function xsanatise($var)
 {
     $var =strip_tags($var);
@@ -221,9 +226,9 @@ if( xcheck(Mage::getBaseUrl('media').'catalog/product'.$product->getImage()!==fa
             }
 
             $shipping = $item->addChild('xmlns:g:shipping');
-              $shipping->addChild('xmlns:g:country', 'GB');
-              $shipping->addChild('xmlns:g:service', 'Standard');
-              $shipping->addChild('xmlns:g:price', '5.95 GBP');
+              $shipping->addChild('xmlns:g:country', $shippingcountry);
+              $shipping->addChild('xmlns:g:service', $shippingservice);
+              $shipping->addChild('xmlns:g:price', $shippingprice);
 
              $item->addChild('xmlns:g:availability', $stock);
 
