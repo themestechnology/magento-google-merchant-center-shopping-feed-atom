@@ -7,8 +7,9 @@ header('Content-Type: text/xml; charset=utf-8', true); //set document header con
 $mysitetitle='http://www.mysite.com';
 
 $shippingcountry = 'GB'
+$shippingcountrylong = ' GBP'
 $shippingservice = 'Standard';
-$shippingprice = '5.95 GBP';
+$shippingprice = '5.95' . $shippingcountrylong;
 
 
 function xsanatise($var)
@@ -219,10 +220,10 @@ if( xcheck(Mage::getBaseUrl('media').'catalog/product'.$product->getImage()!==fa
             }
 
             if(empty($product->getSpecialPrice())){
-                $item->addChild('xmlns:g:price',number_format($product->getFinalPrice(), '2', '.', ','). ' GBP' );
+                $item->addChild('xmlns:g:price',number_format($product->getFinalPrice(), '2', '.', ','). $shippingcountrylong );
             }else{
-                 $item->addChild('xmlns:g:price',number_format($product->getPrice(), '2', '.', ','). ' GBP' );
-                $item->addChild('xmlns:g:sale_price', number_format($product->getSpecialPrice(), '2', '.', ','). ' GBP' );
+                 $item->addChild('xmlns:g:price',number_format($product->getPrice(), '2', '.', ','). $shippingcountrylong );
+                $item->addChild('xmlns:g:sale_price', number_format($product->getSpecialPrice(), '2', '.', ','). $shippingcountrylong );
             }
 
             $shipping = $item->addChild('xmlns:g:shipping');
