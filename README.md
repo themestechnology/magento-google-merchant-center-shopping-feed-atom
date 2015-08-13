@@ -59,3 +59,15 @@ Q: Is there an example output
 
 A: Yes there is an example output supplied in "google-atom-feed-example.xml"
 
+
+
+Q: My web browser is crashing/freezing when I run this script
+
+A: Its your computer, either limit the number of loops the foreach makes when testing or use a different computer
+
+
+
+Q: I am using firefox web browser and cannot see the out put XML
+
+A: Use a different web browser such as Chrome
+
