@@ -43,17 +43,19 @@ It is recommended that you use the number references rather than the breadcrumb 
 
 ## FAQ
 
->Q: Is this script free
+Q: Is this script free
 
->A: Yes it has an MIT licence
-
-
->Q: I need a atom xml feed for more than one country
-
->A: You would be better off renaming the script and customising it for each country
+A: Yes it has an MIT licence
 
 
->Q: Is there an example output
 
->A: Yes there is an example output supplied in "google-atom-feed-example.xml"
+Q: I need a atom xml feed for more than one country
+
+A: You would be better off renaming the script and customising it for each country
+
+
+
+Q: Is there an example output
+
+A: Yes there is an example output supplied in "google-atom-feed-example.xml"
 
