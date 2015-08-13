@@ -7,7 +7,7 @@ Place the file into you magento install i.e. public_html
 
 Update $mysitetitle with the website address
 
-Update the $shipping* variables with data depending on your country(this does not have to be too accruit).
+Update the $shipping* variables with data depending on your country(this does not have to be too accurate).
 
 If necessary change date_default_timezone_set("Europe/London") to your time zone, if you encounter errors
 
