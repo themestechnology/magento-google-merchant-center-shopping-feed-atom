@@ -49,9 +49,11 @@ A: Yes it has an MIT licence
 
 
 
+
 Q: I need a atom xml feed for more than one country
 
 A: You would be better off renaming the script and customising it for each country
+
 
 
 
@@ -61,13 +63,35 @@ A: Yes there is an example output supplied in "google-atom-feed-example.xml"
 
 
 
+
 Q: My web browser is crashing/freezing when I run this script
 
 A: Its your computer, either limit the number of loops the foreach makes when testing or use a different computer
 
 
 
+
 Q: I am using firefox web browser and cannot see the out put XML
 
 A: Use a different web browser such as Chrome
+
+
+
+Q: How large will the output file be?
+A: This will depend on the length of your product descriptions but in general 1.5 MB for each 1000 products
+
+
+
+
+Q: Can I save this XML file?
+A: Yes you can do a Ctr+S or use PHP to make a file using fopen
+
+
+
+
+Q: I have a lot of products and the http/server is timing out what can I do
+
+A: You can set your php.ini file to have a longer time out http://php.net/manual/en/function.set-time-limit.php. However if you do not have access or have a PCI compliance scanning service this may cause problems so...
+
+A: You can set up a cron job to run the script on the server, do not use echo $rss->asXML(); instead use the php fopen to make a new xml file on the server and point google to that.
 
