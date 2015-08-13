@@ -78,12 +78,14 @@ A: Use a different web browser such as Chrome
 
 
 Q: How large will the output file be?
+
 A: This will depend on the length of your product descriptions but in general 1.5 MB for each 1000 products
 
 
 
 
 Q: Can I save this XML file?
+
 A: Yes you can do a Ctr+S or use PHP to make a file using fopen
 
 
@@ -91,7 +93,8 @@ A: Yes you can do a Ctr+S or use PHP to make a file using fopen
 
 Q: I have a lot of products and the http/server is timing out what can I do
 
-A: You can set your php.ini file to have a longer time out http://php.net/manual/en/function.set-time-limit.php. However if you do not have access or have a PCI compliance scanning service this may cause problems so...
+A: You can set your php.ini file to have a longer time out http://php.net/manual/en/function.set-time-limit.php.
+However if you do not have access or have a PCI compliance scanning service this may cause problems so...
 
 A: You can set up a cron job to run the script on the server, do not use echo $rss->asXML(); instead use the php fopen to make a new xml file on the server and point google to that.
 
