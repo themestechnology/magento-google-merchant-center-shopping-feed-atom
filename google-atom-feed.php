@@ -4,7 +4,7 @@ set_time_limit(0);
 date_default_timezone_set("Europe/London");
 header('Content-Type: text/xml; charset=utf-8', true); //set document header content type to be XML
 
-$mysitetitle='';
+$mysitetitle='http://www.mysite.com';
 
 $shippingcountry = 'GB'
 $shippingservice = 'Standard';
