@@ -9,7 +9,10 @@
     <g:item_group_id>077924003134</g:item_group_id>
     <g:title>Weber Smokey Joe Original Black BBQ</g:title>
     <g:link>https://mysite.co.uk/catalog/product/view/id/195/s/weber-smokey-joe-premium-bbq/</g:link>
-    <g:brand>Weber</g:brand><g:mpn>1121004</g:mpn>
+    <g:brand>Weber</g:brand>
+    <g:mpn>1121004</g:mpn>
+    <g:upc>000123456789</g:upc>
+    <g:gtinc>000123456789</g:gtin>
     <g:condition>new</g:condition>
     <g:image_link>https://mysite.co.uk/media/catalog/product/s/m/smokey_joe.jpg</g:image_link>
     <g:quantity>1</g:quantity>
