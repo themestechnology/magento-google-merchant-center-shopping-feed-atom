@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0" version="1">
 
 <title>mysite.co.cuk</title>
@@ -28,3 +27,4 @@
     <g:summary>The Weber Smokey Joe Original BBQ is the original, iconic kettle barbecue in miniature! It is ideal for picnics, camping and holidays when you need a BBQ you can simply grab and go. Click to see our full range of Weber BBQs </g:summary>
 </entry>
 
+</feed>
