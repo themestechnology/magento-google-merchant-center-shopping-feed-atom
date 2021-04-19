@@ -6,8 +6,8 @@ header('Content-Type: text/xml; charset=utf-8', true); //set document header con
 
 $mysitetitle='http://www.mysite.com';
 
-$shippingcountry = 'GB'
-$shippingcountrylong = ' GBP'
+$shippingcountry = 'GB';
+$shippingcountrylong = ' GBP';
 $shippingservice = 'Standard';
 $shippingprice = '5.95' . $shippingcountrylong;
 
